@@ -34,7 +34,7 @@ def generate_xml(path):
         for entry in it:
             if entry.is_file() and entry.name.endswith('.png'):
                 name = entry.name.split('.png')[0]
-                path = 'graphics/pictures/person/%s/' % name
+                path = 'graphics/pictures/person/%s/portrait' % name
 
                 ET.SubElement(
                     maps,
