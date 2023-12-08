@@ -1,2 +1,0 @@
-python facegen.py
-pause

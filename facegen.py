@@ -54,4 +54,4 @@ def generate_xml(path):
 if __name__ == '__main__':
     print('### Generating XML ###\n')
     generate_xml('./')
-    print('\nDone.')
+    input('\nDone. Press any key to quit...')
